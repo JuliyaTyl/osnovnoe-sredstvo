@@ -165,6 +165,10 @@ OS.App = class {
     if (field === "name") return true;
     return this.state.schema?.columns?.[field] !== undefined;
   }
+
+  hasLifecycleFields() {
+    return this.hasField("usefulLife") && (this.hasField("commissioningDate") || this.hasField("purchaseDate"));
+  }
 };
 
 function compare(a, b, dir) {
