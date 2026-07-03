@@ -126,7 +126,7 @@ OS.AssetTable = class {
 
   isColumnAvailable(key) {
     if (key === "name") return true;
-    if (key === "age" || key === "remainingLife") return this.app.hasField("commissioningDate") && this.app.hasField("usefulLife");
+    if (key === "age" || key === "remainingLife") return this.app.hasLifecycleFields();
     return this.app.hasField(key);
   }
 };
