@@ -38,7 +38,7 @@ OS.DetailPanel = class {
   }
 
   lifecycle(label, value) {
-    return this.app?.hasField("commissioningDate") && this.app?.hasField("usefulLife") ? this.item(label, value) : null;
+    return this.app?.hasLifecycleFields() ? this.item(label, value) : null;
   }
 
   item(label, value) {
