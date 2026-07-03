@@ -11,7 +11,7 @@
   top: 0;
   height: 100vh;
   padding: 22px 18px;
-  background: #101828;
+  background: #2a241f;
   color: #fff;
 }
 
@@ -29,7 +29,7 @@
   border-radius: 8px;
   display: grid;
   place-items: center;
-  background: #2563eb;
+  background: #b45309;
   font-weight: 800;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .brand-subtitle {
-  color: #b9c2d0;
+  color: #d7c8b9;
   font-size: 12px;
   margin-top: 3px;
 }
@@ -53,7 +53,7 @@
   min-height: 42px;
   padding: 0 12px;
   border-radius: 8px;
-  color: #d7deea;
+  color: #eadfd3;
   background: transparent;
   text-align: left;
   display: flex;
@@ -63,7 +63,7 @@
 
 .nav button.active,
 .nav button:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(180, 83, 9, 0.22);
   color: #fff;
 }
 
